@@ -1,0 +1,28 @@
+{
+  "name": "google-sheet-wl-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "load-single": "npx ts-node loadSingleSheet.ts",
+    "load-multiple": "npx ts-node loadMultipleSheets.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/google-spreadsheet": "^4.0.0",
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.5",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^8.9.0",
+    "google-spreadsheet": "^4.1.0"
+  }
+}
